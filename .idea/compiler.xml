@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="lg-register" />
+        <module name="lg-common" />
+        <module name="lg-auth" />
+        <module name="lg-order" />
+        <module name="lg-other" />
+        <module name="lg-user-interface" />
+        <module name="lg-gateway" />
+        <module name="lg-product" />
+        <module name="lg-user" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="lg-auth" options="-parameters" />
+      <module name="lg-common" options="-parameters" />
+      <module name="lg-gateway" options="-parameters" />
+      <module name="lg-order" options="-parameters" />
+      <module name="lg-other" options="-parameters" />
+      <module name="lg-product" options="-parameters" />
+      <module name="lg-register" options="-parameters" />
+      <module name="lg-user" options="-parameters" />
+      <module name="lg-user-interface" options="-parameters" />
+      <module name="乐购" options="-parameters" />
+    </option>
+  </component>
+</project>
